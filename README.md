@@ -15,7 +15,7 @@ This is supposed to help the beginners on getting started. Experienced users can
 ### For Linux Users: 
 Installing SFML on Linux is typically straightforward through your distribution's package manager. Any Linux user should be able to run this project without further guidance.  
 
-(Note: Visual Studio 2022 is not available on Linux, use an code editor or IDE of your choice.)   
+(Note: Visual Studio 2022 is not available on Linux, use a code editor or IDE of your choice.)   
 ### To Install the SFML library on Windows:
 Step 1: Install visual studio 2022 along with the desktop development kit (sould be around 10 gigs).  
 Step 2: Install git.  
