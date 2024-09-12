@@ -1,6 +1,10 @@
 # Dash N Dodge
 Dash N Dodge is a simple game developed using the Simple Fast Multimedia Library (SFML) in C++. It's an excellent project for beginners who are new to game development and want to gain hands on experience with SFML and C++ .
 
+[![Watch this video](https://img.youtube.com/vi/-Ps8K5dIiWk/hqdefault.jpg)](https://www.youtube.com/watch?v=-Ps8K5dIiWk)  
+*(Click on the image to play the video)*
+  
+
 # Project Overview
 Dash N Dodge is a basic game where players navigate a character through obstacles while aiming to achieve the highest score. This project introduces fundamental concepts of game development, such as handling user input, managing game states, and rendering graphics.
 
