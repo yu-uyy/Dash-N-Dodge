@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{bcc1da3c-af2e-4d2e-8987-887f3f1cbfba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\headers">
+      <UniqueIdentifier>{18b3a34a-39cf-4368-95c8-1ca297f8abee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\src">
+      <UniqueIdentifier>{8abff323-df46-4493-9fcc-bfe751085bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetManager">
+      <UniqueIdentifier>{10311c20-f28f-4ae9-8706-271d3846677a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fonts">
+      <UniqueIdentifier>{6c5f514a-5a9e-48b2-8aee-a2693ceff6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Texture">
+      <UniqueIdentifier>{9f915b0e-9970-45fe-9547-677ca0754c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input Manager">
+      <UniqueIdentifier>{52fb6e32-f2ff-4f28-bfcb-562c35a3c50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{df23d029-cdef-4561-9a0e-69d242413cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{d133c5d5-48ca-45d6-bb22-b10a9eff264e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Audio">
+      <UniqueIdentifier>{a92029c6-307d-4d26-86ac-4a745c78301b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="State.hpp">
+      <Filter>State\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.hpp">
+      <Filter>State\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.hpp">
+      <Filter>AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.hpp">
+      <Filter>State\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.hpp">
+      <Filter>State\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.hpp">
+      <Filter>Input Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay.hpp">
+      <Filter>State\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.hpp">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>Input Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleManager.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseGame.hpp">
+      <Filter>State\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>State\src</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>State\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>State\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScreen.cpp">
+      <Filter>State\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Input Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay.cpp">
+      <Filter>State\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Input Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstacleManager.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseGame.cpp">
+      <Filter>State\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\Downloads\Anton_SC\AntonSC-Regular.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="SplashBackground.png">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="BloodSplash.png">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="BackGround.png">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="MainMenu.png">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="Running.png">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="BearRun.png">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="RunningEnemy.png">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="Spider.png">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+    <Image Include="..\..\..\Project_FInal_Ready (2)\Project_FInal_Ready\Kekekekekek\FlyingEnemy.png">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="GameBGAudio.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="JumpSE.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="highscore.txt">
+      <Filter>Resource Files\Fonts</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
